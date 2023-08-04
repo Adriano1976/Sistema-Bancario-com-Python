@@ -19,3 +19,25 @@
    📤 Na operação de saque, o sistema permite realizar até 3 saques diários, com limite máximo de R$ 500,00 por saque, exibindo mensagem de falta de saldo quando necessário.
 
    🧾 A operação de extrato lista todos os depósitos e saques, exibindo o saldo atual da conta e uma mensagem de extrato vazio quando não há movimentações. Valores são exibidos no formato R$ xxx.xx.
+
+## Descrição do Código
+
+🏦 O programa inicia importando a biblioteca sys, que é utilizada para encerrar o programa quando o usuário escolher sair.
+💰 As variáveis iniciais do programa são saldo, depositos, saques e numero_saques.
+💸 saldo armazena o valor do saldo da conta bancária e é inicializado com o valor zero.
+📥 depositos é uma lista que armazena os valores dos depósitos feitos na conta.
+📤 saques é uma lista que armazena os valores dos saques feitos na conta.
+🔢 numero_saques é uma variável que conta quantos saques foram realizados em um dia.
+Funções Principais:
+🔼 deposito(valor): Permite fazer um depósito na conta. Se o valor for positivo, ele é adicionado ao saldo da conta e à lista de depósitos. Se for negativo ou zero, exibe a mensagem "O valor deve ser positivo."
+🔽 saque(valor): Permite fazer um saque na conta. Verifica se o valor é menor ou igual ao limite de saque de R$ 500,00 e se o saldo é suficiente. Se sim, subtrai o valor do saldo, incrementa o número de saques diários e adiciona o valor à lista de saques. Caso contrário, exibe mensagens de erro apropriadas.
+🧾 extrato(): Gera o extrato da conta bancária, exibindo as listas de depósitos e saques, além do saldo atual. Se não houver movimentações, exibe "Não foram realizadas movimentações."
+
+### O programa principal exibe um menu com as opções:
+
+* "Depositar": Permite realizar um depósito na conta, solicitando ao usuário o valor do depósito.
+* "Sacar": Permite realizar um saque na conta, solicitando ao usuário o valor do saque.
+* "Extrato": Exibe o extrato da conta bancária.
+* "Sair": Encerra o programa.
+
+O programa utiliza um loop infinito (while True) para manter o menu ativo até que o usuário escolha a opção "4" para sair, momento em que o programa é encerrado utilizando a função sys.exit(). Se o usuário digitar uma opção inválida, é exibida a mensagem "Opção inválida" e o menu é exibido novamente.
