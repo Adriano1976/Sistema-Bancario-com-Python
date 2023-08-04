@@ -23,14 +23,23 @@
 ## Descrição do Código
 
 🏦 O programa inicia importando a biblioteca sys, que é utilizada para encerrar o programa quando o usuário escolher sair.
+
 💰 As variáveis iniciais do programa são saldo, depositos, saques e numero_saques.
+
 💸 saldo armazena o valor do saldo da conta bancária e é inicializado com o valor zero.
+
 📥 depositos é uma lista que armazena os valores dos depósitos feitos na conta.
+
 📤 saques é uma lista que armazena os valores dos saques feitos na conta.
+
 🔢 numero_saques é uma variável que conta quantos saques foram realizados em um dia.
-Funções Principais:
+
+## Funções Principais:
+
 🔼 deposito(valor): Permite fazer um depósito na conta. Se o valor for positivo, ele é adicionado ao saldo da conta e à lista de depósitos. Se for negativo ou zero, exibe a mensagem "O valor deve ser positivo."
+
 🔽 saque(valor): Permite fazer um saque na conta. Verifica se o valor é menor ou igual ao limite de saque de R$ 500,00 e se o saldo é suficiente. Se sim, subtrai o valor do saldo, incrementa o número de saques diários e adiciona o valor à lista de saques. Caso contrário, exibe mensagens de erro apropriadas.
+
 🧾 extrato(): Gera o extrato da conta bancária, exibindo as listas de depósitos e saques, além do saldo atual. Se não houver movimentações, exibe "Não foram realizadas movimentações."
 
 ### O programa principal exibe um menu com as opções:
