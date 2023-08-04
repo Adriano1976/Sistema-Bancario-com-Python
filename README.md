@@ -26,13 +26,13 @@
 
 💰 As variáveis iniciais do programa são saldo, depositos, saques e numero_saques.
 
-💸 saldo armazena o valor do saldo da conta bancária e é inicializado com o valor zero.
+💸 "saldo": Armazena o valor do saldo da conta bancária e é inicializado com o valor zero.
 
-📥 depositos é uma lista que armazena os valores dos depósitos feitos na conta.
+📥 "depositos": É uma lista que armazena os valores dos depósitos feitos na conta.
 
-📤 saques é uma lista que armazena os valores dos saques feitos na conta.
+📤 "saques": É uma lista que armazena os valores dos saques feitos na conta.
 
-🔢 numero_saques é uma variável que conta quantos saques foram realizados em um dia.
+🔢 "numero_saques": É uma variável que conta quantos saques foram realizados em um dia.
 
 ## Funções Principais:
 
