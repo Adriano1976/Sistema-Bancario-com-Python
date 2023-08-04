@@ -9,5 +9,7 @@ Este é o desafio do Bootcamp Potência Tech powered by iFood | Ciência de Dado
 ## Fatos
 
 📥 Na operação de depósito, é possível depositar valores positivos para a conta bancária, armazenados em uma variável e exibidos no extrato.
+
 📤 Na operação de saque, o sistema permite realizar até 3 saques diários, com limite máximo de R$ 500,00 por saque, exibindo mensagem de falta de saldo quando necessário.
+
 🧾 A operação de extrato lista todos os depósitos e saques, exibindo o saldo atual da conta e uma mensagem de extrato vazio quando não há movimentações. Valores são exibidos no formato R$ xxx.xx.
