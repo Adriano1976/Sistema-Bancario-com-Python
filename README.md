@@ -50,3 +50,6 @@
 * "Sair": Encerra o programa.
 
 O programa utiliza um loop infinito (while True) para manter o menu ativo até que o usuário escolha a opção "4" para sair, momento em que o programa é encerrado utilizando a função sys.exit(). Se o usuário digitar uma opção inválida, é exibida a mensagem "Opção inválida" e o menu é exibido novamente.
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=87CEFA&height=120&section=footer"/>**** 
+</div>
